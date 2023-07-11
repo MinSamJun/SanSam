@@ -9,14 +9,14 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      postId: {
-        allowNull: false,
-        references: {
-          model: 'Posts',
-          key: 'postId',
-          },
-        type: Sequelize.INTEGER
-      },
+      // postId: {
+      //   allowNull: false,
+      //   references: {
+      //     model: 'Posts',
+      //     key: 'postId',
+      //     },
+      //   type: Sequelize.INTEGER
+      // },
       nickname: {
         allowNull: false,
         type: Sequelize.STRING

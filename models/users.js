@@ -24,10 +24,6 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true,
       type: DataTypes.INTEGER
     },
-    postId: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
     nickname: {type : DataTypes.STRING,allowNull: false},
     password: {type : DataTypes.STRING,allowNull: false},
     createdAt: {
